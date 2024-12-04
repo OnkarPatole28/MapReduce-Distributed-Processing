@@ -7,3 +7,5 @@ This project aims to replicate this functionality by dividing input data into mu
 Two specific tasks are implemented: a "Letter Counter" that calculates the frequency of each alphabet letter in the input file and a "Word Finder" that identifies lines containing a user-specified word.
 
 The program is designed to handle large text files efficiently, using fork() to create worker processes for each split. The MapReduce operations are user-defined, ensuring flexibility and customizability while adhering to prescribed interfaces and file naming conventions.
+
+This project not only demonstrates the functionality of MapReduce but also provides hands-on experience with process management and inter-process communication in C. By simulating a distributed computing environment on a single machine, it serves as an educational tool for understanding core concepts of parallel programming and data processing frameworks.
